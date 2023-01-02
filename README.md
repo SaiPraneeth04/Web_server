@@ -39,7 +39,6 @@ content = ""
 <h1>K Sai Praneeth</h1>
 <h>22005263</h1>
 """
-
 class HelloHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
