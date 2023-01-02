@@ -51,10 +51,6 @@ server_adderss =('',80)
 httpd= HTTPserver(server_address,HelloHandler)
 httpd.serve_forever()
 ```
-
-=======
-
->>>>>>> 81fe7cbb3e256778b03293089b1e78a26946fc53
 # OUTPUT:
 ![model](/webserveroutput.png)
 
